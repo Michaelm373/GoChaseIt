@@ -1,0 +1,23 @@
+<model name='my_robot'>
+        <pose frame=''>-0.000393 -0.000182 0.100002 -1e-06 0.000682 0.004092</pose>
+        <scale>1 1 1</scale>
+        <link name='left_wheel'>
+          <pose frame=''>-0.001007 0.149817 0.100002 -3e-06 8.8e-05 0.004092</pose>
+          <velocity>-4.4e-05 -0.001388 0.004708 0.013908 -0.000367 0.000262</velocity>
+          <acceleration>-0.005329 -2.77148 9.4168 2.67849 -0.620009 0.203126</acceleration>
+          <wrench>-0.026643 -13.8574 47.084 0 -0 0</wrench>
+        </link>
+        <link name='right_wheel'>
+          <pose frame=''>0.000221 -0.15018 0.100002 1e-06 0.003263 0.004092</pose>
+          <velocity>-7e-06 -0.001392 0.000361 0.013918 -1.6e-05 0.00023</velocity>
+          <acceleration>-0.029395 -2.7799 0.721071 2.70016 -0.266223 0.13792</acceleration>
+          <wrench>-0.146976 -13.8995 3.60535 0 -0 0</wrench>
+        </link>
+        <link name='robot_footprint'>
+          <pose frame=''>-0.000393 -0.000182 0.100002 -1e-06 0.000682 0.004092</pose>
+          <velocity>-2.5e-05 -0.001308 0.00254 0.014287 -0.000249 0.000269</velocity>
+          <acceleration>-0.016463 -2.61088 5.08143 -2.84432 -0.496351 0.215675</acceleration>
+          <wrench>-0.248591 -39.4243 76.7297 0 -0 0</wrench>
+        </link>
+</model>
+// this file goes right before <model name="sun">
