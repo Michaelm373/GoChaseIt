@@ -1,4 +1,5 @@
 # GoChaseIt
+![](demo.gif)
 
 ## Introduction
 This project involves designing and building a mobile robot that is capable of chasing and following white colored balls.
